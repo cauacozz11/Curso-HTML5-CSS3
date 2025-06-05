@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptação de imagens e multimídias</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Aprendendo a deixar as imagens de forma mais dionâmica e facilitada para o usuário em qualquer tipo de dispositivo</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/ImagemP.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="Imagens/ImagemM.png" type="image/png">
+        <img src="Imagens/ImagemG.png" alt="Imagem G flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir aúdios em HTML5</p>
+    <audio src="midia/Cancun - Topher Mohr and Alex Elena.mp3" controls autoplay></audio>
+    <!--Compatível com MP3 WAV e OGG-->
+
+    <h1>Outra maneira de aplicar áudio em seu documento</h1>
+    <audio preload="metadata" autoplay controls loop>
+       <source src="midia/Cancun - Topher Mohr and Alex Elena.mp3" type="audio/mpeg">
+       <source src="midia/Cancun - Topher Mohr and Alex Elena.ogg" type="audio/ogg"> 
+       <source src="midia/Cancun - Topher Mohr and Alex Elena.wav" type="audio/wav">
+       <p>Infelizmente seu navegor não consegue reproduzir áudios.
+        <a href="midia/Cancun - Topher Mohr and Alex Elena.mp3">Clique aqui para o áudio em MP3</a>
+       </p>
+    </audio>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/ImagemP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/ImagemM.png" type="image/png">
+        <img src="Imagens/ImagemG.png" alt="Foto G flexível">
+    </picture>
+
+</body>
+</html> 

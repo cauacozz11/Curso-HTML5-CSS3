@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Boldonse&family=Exile&display=swap');
+
+@font-face {
+    font-family:"idroid" ;
+    src: url("idroid.otf") format("opentype");
+    font-style: normal;
+    font-weight: lighter;
+}
+
+body {
+    background-color: #085c008c;
+    margin: 0;
+}
+
+header > div {
+    background-image: linear-gradient(to bottom, #005C53, #9FC131 ) ;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: medium;
+    font-family: Bebas Neue;
+}
+nav {
+    background-color: #085c008c;
+}
+a {
+    color:aliceblue ;
+    text-decoration: none;
+    font-weight: medium;
+    padding: 0px 15px 0px  20px;
+    margin-bottom: 10px;
+    font-family: Bebas Neue;
+    font-size: 17px;
+}
+
+a:hover {
+    font-size: 18px;
+    text-decoration: underline;
+    transition: all 0.2s ease;
+}
+
+main {
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-family: Bebas Neue;
+    
+    
+}
+
+
+main > p {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.subtitulo {
+    color: #005C53;
+    padding: 8px;
+    margin: 20px;
+    font-family: idroid;
+}
+
+#fundo {
+    background-color: #005c5359;
+    background-image: linear-gradient(to right,#005c5341, #ffffff);
+    border-radius: 15px;
+}
+
+.imagem {
+    display: block;
+    margin: auto;
+    width: 650px;
+}
+
+#bugdroid {
+    width: 300px;
+}
+
+.paragrafo {
+    text-align: left;
+    padding: 0px;
+    margin: 20px;
+    text-indent: 35px;
+}
+
+#video {
+    background-color: #005C53;
+    padding: 20px;
+}
+
+#video2 {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#lista {
+    width: 600px;
+    height: 500px;
+    background-color: #9FC131;
+    margin: 30px auto;
+    border-radius: 20px;
+}
+
+h3#titulo {
+    background-color: #005C53;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #005C53;
+    text-align: center;
+    color: aliceblue;
+    padding: 1px
+    
+    
+}
+
+.container {
+    display: flex;
+}
+
+#alimentos {
+    
+    margin-left: 130px;
+}
+
+#comidas {
+    margin-left: 50px
+}
+
+.colorido {
+    color: #12884d;
+}
+
+.colorido:hover {
+    text-decoration: underline;
+    font-size: 17px;
+
+}
+
